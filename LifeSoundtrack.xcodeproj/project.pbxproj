@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002E082D162FA84D0040CC16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E082C162FA84D0040CC16 /* UIKit.framework */; };
+		002E082F162FA84D0040CC16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E082E162FA84D0040CC16 /* Foundation.framework */; };
+		002E0831162FA84D0040CC16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E0830162FA84D0040CC16 /* CoreGraphics.framework */; };
+		002E0837162FA84D0040CC16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002E0835162FA84D0040CC16 /* InfoPlist.strings */; };
+		002E0839162FA84D0040CC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E0838162FA84D0040CC16 /* main.m */; };
+		002E083D162FA84D0040CC16 /* _45AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E083C162FA84D0040CC16 /* _45AppDelegate.m */; };
+		002E083F162FA84D0040CC16 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E083E162FA84D0040CC16 /* Default.png */; };
+		002E0841162FA84D0040CC16 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E0840162FA84D0040CC16 /* Default@2x.png */; };
+		002E0843162FA84D0040CC16 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E0842162FA84D0040CC16 /* Default-568h@2x.png */; };
+		002E0846162FA84D0040CC16 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E0844162FA84D0040CC16 /* MainStoryboard_iPhone.storyboard */; };
+		002E0849162FA84D0040CC16 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E0847162FA84D0040CC16 /* MainStoryboard_iPad.storyboard */; };
+		002E084C162FA84D0040CC16 /* _45FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E084B162FA84D0040CC16 /* _45FirstViewController.m */; };
+		002E084E162FA84E0040CC16 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E084D162FA84D0040CC16 /* first.png */; };
+		002E0850162FA84E0040CC16 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E084F162FA84E0040CC16 /* first@2x.png */; };
+		002E0853162FA84E0040CC16 /* _45SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E0852162FA84E0040CC16 /* _45SecondViewController.m */; };
+		002E0855162FA84E0040CC16 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E0854162FA84E0040CC16 /* second.png */; };
+		002E0857162FA84E0040CC16 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002E0856162FA84E0040CC16 /* second@2x.png */; };
+		002E085F162FA84E0040CC16 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E085E162FA84E0040CC16 /* SenTestingKit.framework */; };
+		002E0860162FA84E0040CC16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E082C162FA84D0040CC16 /* UIKit.framework */; };
+		002E0861162FA84E0040CC16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002E082E162FA84D0040CC16 /* Foundation.framework */; };
+		002E0869162FA84E0040CC16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002E0867162FA84E0040CC16 /* InfoPlist.strings */; };
+		002E086C162FA84E0040CC16 /* LifeSoundtrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002E086B162FA84E0040CC16 /* LifeSoundtrackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002E0862162FA84E0040CC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002E081F162FA84D0040CC16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002E0827162FA84D0040CC16;
+			remoteInfo = LifeSoundtrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002E0828162FA84D0040CC16 /* LifeSoundtrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSoundtrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002E082C162FA84D0040CC16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		002E082E162FA84D0040CC16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		002E0830162FA84D0040CC16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		002E0834162FA84D0040CC16 /* LifeSoundtrack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeSoundtrack-Info.plist"; sourceTree = "<group>"; };
+		002E0836162FA84D0040CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		002E0838162FA84D0040CC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		002E083A162FA84D0040CC16 /* LifeSoundtrack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LifeSoundtrack-Prefix.pch"; sourceTree = "<group>"; };
+		002E083B162FA84D0040CC16 /* _45AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _45AppDelegate.h; sourceTree = "<group>"; };
+		002E083C162FA84D0040CC16 /* _45AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _45AppDelegate.m; sourceTree = "<group>"; };
+		002E083E162FA84D0040CC16 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		002E0840162FA84D0040CC16 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		002E0842162FA84D0040CC16 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		002E0845162FA84D0040CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		002E0848162FA84D0040CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		002E084A162FA84D0040CC16 /* _45FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _45FirstViewController.h; sourceTree = "<group>"; };
+		002E084B162FA84D0040CC16 /* _45FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _45FirstViewController.m; sourceTree = "<group>"; };
+		002E084D162FA84D0040CC16 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		002E084F162FA84E0040CC16 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		002E0851162FA84E0040CC16 /* _45SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _45SecondViewController.h; sourceTree = "<group>"; };
+		002E0852162FA84E0040CC16 /* _45SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _45SecondViewController.m; sourceTree = "<group>"; };
+		002E0854162FA84E0040CC16 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		002E0856162FA84E0040CC16 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		002E085D162FA84E0040CC16 /* LifeSoundtrackTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeSoundtrackTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002E085E162FA84E0040CC16 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		002E0866162FA84E0040CC16 /* LifeSoundtrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeSoundtrackTests-Info.plist"; sourceTree = "<group>"; };
+		002E0868162FA84E0040CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		002E086A162FA84E0040CC16 /* LifeSoundtrackTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeSoundtrackTests.h; sourceTree = "<group>"; };
+		002E086B162FA84E0040CC16 /* LifeSoundtrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeSoundtrackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002E0825162FA84D0040CC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E082D162FA84D0040CC16 /* UIKit.framework in Frameworks */,
+				002E082F162FA84D0040CC16 /* Foundation.framework in Frameworks */,
+				002E0831162FA84D0040CC16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002E0859162FA84E0040CC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E085F162FA84E0040CC16 /* SenTestingKit.framework in Frameworks */,
+				002E0860162FA84E0040CC16 /* UIKit.framework in Frameworks */,
+				002E0861162FA84E0040CC16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002E081D162FA84D0040CC16 = {
+			isa = PBXGroup;
+			children = (
+				002E0832162FA84D0040CC16 /* LifeSoundtrack */,
+				002E0864162FA84E0040CC16 /* LifeSoundtrackTests */,
+				002E082B162FA84D0040CC16 /* Frameworks */,
+				002E0829162FA84D0040CC16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002E0829162FA84D0040CC16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002E0828162FA84D0040CC16 /* LifeSoundtrack.app */,
+				002E085D162FA84E0040CC16 /* LifeSoundtrackTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002E082B162FA84D0040CC16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002E082C162FA84D0040CC16 /* UIKit.framework */,
+				002E082E162FA84D0040CC16 /* Foundation.framework */,
+				002E0830162FA84D0040CC16 /* CoreGraphics.framework */,
+				002E085E162FA84E0040CC16 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		002E0832162FA84D0040CC16 /* LifeSoundtrack */ = {
+			isa = PBXGroup;
+			children = (
+				002E083B162FA84D0040CC16 /* _45AppDelegate.h */,
+				002E083C162FA84D0040CC16 /* _45AppDelegate.m */,
+				002E0844162FA84D0040CC16 /* MainStoryboard_iPhone.storyboard */,
+				002E0847162FA84D0040CC16 /* MainStoryboard_iPad.storyboard */,
+				002E084A162FA84D0040CC16 /* _45FirstViewController.h */,
+				002E084B162FA84D0040CC16 /* _45FirstViewController.m */,
+				002E084D162FA84D0040CC16 /* first.png */,
+				002E084F162FA84E0040CC16 /* first@2x.png */,
+				002E0851162FA84E0040CC16 /* _45SecondViewController.h */,
+				002E0852162FA84E0040CC16 /* _45SecondViewController.m */,
+				002E0854162FA84E0040CC16 /* second.png */,
+				002E0856162FA84E0040CC16 /* second@2x.png */,
+				002E0833162FA84D0040CC16 /* Supporting Files */,
+			);
+			path = LifeSoundtrack;
+			sourceTree = "<group>";
+		};
+		002E0833162FA84D0040CC16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002E0834162FA84D0040CC16 /* LifeSoundtrack-Info.plist */,
+				002E0835162FA84D0040CC16 /* InfoPlist.strings */,
+				002E0838162FA84D0040CC16 /* main.m */,
+				002E083A162FA84D0040CC16 /* LifeSoundtrack-Prefix.pch */,
+				002E083E162FA84D0040CC16 /* Default.png */,
+				002E0840162FA84D0040CC16 /* Default@2x.png */,
+				002E0842162FA84D0040CC16 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002E0864162FA84E0040CC16 /* LifeSoundtrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				002E086A162FA84E0040CC16 /* LifeSoundtrackTests.h */,
+				002E086B162FA84E0040CC16 /* LifeSoundtrackTests.m */,
+				002E0865162FA84E0040CC16 /* Supporting Files */,
+			);
+			path = LifeSoundtrackTests;
+			sourceTree = "<group>";
+		};
+		002E0865162FA84E0040CC16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002E0866162FA84E0040CC16 /* LifeSoundtrackTests-Info.plist */,
+				002E0867162FA84E0040CC16 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002E0827162FA84D0040CC16 /* LifeSoundtrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002E086F162FA84E0040CC16 /* Build configuration list for PBXNativeTarget "LifeSoundtrack" */;
+			buildPhases = (
+				002E0824162FA84D0040CC16 /* Sources */,
+				002E0825162FA84D0040CC16 /* Frameworks */,
+				002E0826162FA84D0040CC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeSoundtrack;
+			productName = LifeSoundtrack;
+			productReference = 002E0828162FA84D0040CC16 /* LifeSoundtrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002E085C162FA84E0040CC16 /* LifeSoundtrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002E0872162FA84E0040CC16 /* Build configuration list for PBXNativeTarget "LifeSoundtrackTests" */;
+			buildPhases = (
+				002E0858162FA84E0040CC16 /* Sources */,
+				002E0859162FA84E0040CC16 /* Frameworks */,
+				002E085A162FA84E0040CC16 /* Resources */,
+				002E085B162FA84E0040CC16 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002E0863162FA84E0040CC16 /* PBXTargetDependency */,
+			);
+			name = LifeSoundtrackTests;
+			productName = LifeSoundtrackTests;
+			productReference = 002E085D162FA84E0040CC16 /* LifeSoundtrackTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002E081F162FA84D0040CC16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = 145;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Stephanie Yeh";
+			};
+			buildConfigurationList = 002E0822162FA84D0040CC16 /* Build configuration list for PBXProject "LifeSoundtrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 002E081D162FA84D0040CC16;
+			productRefGroup = 002E0829162FA84D0040CC16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002E0827162FA84D0040CC16 /* LifeSoundtrack */,
+				002E085C162FA84E0040CC16 /* LifeSoundtrackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002E0826162FA84D0040CC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E0837162FA84D0040CC16 /* InfoPlist.strings in Resources */,
+				002E083F162FA84D0040CC16 /* Default.png in Resources */,
+				002E0841162FA84D0040CC16 /* Default@2x.png in Resources */,
+				002E0843162FA84D0040CC16 /* Default-568h@2x.png in Resources */,
+				002E0846162FA84D0040CC16 /* MainStoryboard_iPhone.storyboard in Resources */,
+				002E0849162FA84D0040CC16 /* MainStoryboard_iPad.storyboard in Resources */,
+				002E084E162FA84E0040CC16 /* first.png in Resources */,
+				002E0850162FA84E0040CC16 /* first@2x.png in Resources */,
+				002E0855162FA84E0040CC16 /* second.png in Resources */,
+				002E0857162FA84E0040CC16 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002E085A162FA84E0040CC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E0869162FA84E0040CC16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002E085B162FA84E0040CC16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002E0824162FA84D0040CC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E0839162FA84D0040CC16 /* main.m in Sources */,
+				002E083D162FA84D0040CC16 /* _45AppDelegate.m in Sources */,
+				002E084C162FA84D0040CC16 /* _45FirstViewController.m in Sources */,
+				002E0853162FA84E0040CC16 /* _45SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002E0858162FA84E0040CC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002E086C162FA84E0040CC16 /* LifeSoundtrackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002E0863162FA84E0040CC16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002E0827162FA84D0040CC16 /* LifeSoundtrack */;
+			targetProxy = 002E0862162FA84E0040CC16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002E0835162FA84D0040CC16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002E0836162FA84D0040CC16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		002E0844162FA84D0040CC16 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002E0845162FA84D0040CC16 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		002E0847162FA84D0040CC16 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002E0848162FA84D0040CC16 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		002E0867162FA84E0040CC16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002E0868162FA84E0040CC16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002E086D162FA84E0040CC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002E086E162FA84E0040CC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002E0870162FA84E0040CC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeSoundtrack/LifeSoundtrack-Prefix.pch";
+				INFOPLIST_FILE = "LifeSoundtrack/LifeSoundtrack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		002E0871162FA84E0040CC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeSoundtrack/LifeSoundtrack-Prefix.pch";
+				INFOPLIST_FILE = "LifeSoundtrack/LifeSoundtrack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		002E0873162FA84E0040CC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeSoundtrack.app/LifeSoundtrack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeSoundtrack/LifeSoundtrack-Prefix.pch";
+				INFOPLIST_FILE = "LifeSoundtrackTests/LifeSoundtrackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		002E0874162FA84E0040CC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeSoundtrack.app/LifeSoundtrack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeSoundtrack/LifeSoundtrack-Prefix.pch";
+				INFOPLIST_FILE = "LifeSoundtrackTests/LifeSoundtrackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002E0822162FA84D0040CC16 /* Build configuration list for PBXProject "LifeSoundtrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002E086D162FA84E0040CC16 /* Debug */,
+				002E086E162FA84E0040CC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002E086F162FA84E0040CC16 /* Build configuration list for PBXNativeTarget "LifeSoundtrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002E0870162FA84E0040CC16 /* Debug */,
+				002E0871162FA84E0040CC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		002E0872162FA84E0040CC16 /* Build configuration list for PBXNativeTarget "LifeSoundtrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002E0873162FA84E0040CC16 /* Debug */,
+				002E0874162FA84E0040CC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002E081F162FA84D0040CC16 /* Project object */;
+}
